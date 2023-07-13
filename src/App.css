@@ -1,5 +1,17 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+h6,
+h5,
+h4 {
+  display: flex;
+}
+
+h6 p,
+h5 p,
+h4 p {
+  padding-left: 10px;
 }

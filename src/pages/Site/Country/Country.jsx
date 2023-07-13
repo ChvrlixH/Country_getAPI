@@ -36,9 +36,16 @@ const Country = () => {
                 >
                   {country.name.common}
                 </h4>
-                <h6>Population :</h6> <p>{country.population}</p>
-                <h6>Region : </h6> <p>{country.region}</p>
-                <h6>Capital :</h6> <p>{country.capital}</p>
+                <br />
+                <h6>
+                  Population: <p>{country.population}</p>
+                </h6>
+                <h6>
+                  Region: <p>{country.region}</p>
+                </h6>
+                <h6>
+                  Capital: <p>{country.capital}</p>
+                </h6>
               </div>
             </div>
           );
